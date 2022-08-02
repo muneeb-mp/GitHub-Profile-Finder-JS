@@ -1,0 +1,3 @@
+- Fetch user data from Github REST API
+- Mobile Responsive
+- Custom CSS Design
