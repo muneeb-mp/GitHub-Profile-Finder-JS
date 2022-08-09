@@ -6,7 +6,6 @@
     --accent-blue: #1688f0;
     --accent-pink: #f44a64;
     --bg-main: #000;
-    --bg-repo: #0f0f1a;
     --bg-user: #17171d;
 }
 
@@ -194,8 +193,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: var(--bg-repo);
-    /* padding: 2em; */
+    background-color: var(--bg-user);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     width: 100%;
@@ -225,12 +223,12 @@ h3 {
     border: 1px solid var(--accent-blue);
     padding: 1em;
     text-align: center;
-    background-color: var(--bg-user);
+    background-color: var(--bg-main);
 }
 
 .repo-list li:hover {
+    background-color: var(--bg-user);
     border: 1px solid var(--accent-pink);
-    background-color: var(--bg-main);
     box-shadow: 0 3px 6px var(--accent-pink), 0 3px 6px var(--accent-pink);
 }
 
